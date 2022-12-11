@@ -109,7 +109,7 @@ iframe{
     height: 400px;
     margin: 0 auto;
     position: relative;
-    left: 350px;
+    left: 250px;
 }
 
 .container {
@@ -138,12 +138,9 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   position: relative;
-  left: 280px;
+  left: 200px;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 footer{
     position: relative;
