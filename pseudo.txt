@@ -30,3 +30,11 @@ PSEUDO:
     need to have a specific id so it is linkable
 
 
+Color Scheme:
+Night sky as background
+paragraph text in white
+orange: #edf5e1
+green: #5cdb95
+brown: #907163
+peachy: #379683
+

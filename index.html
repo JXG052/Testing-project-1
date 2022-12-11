@@ -3,75 +3,50 @@
 
 <head>
     <link rel="stylesheet" href="assets/styles.css">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing p1</title>
+    <title>Synergy Solutions: Home Page</title>
 </head>
-
 <body>
     <header>
-        <h1>Company Name</h1>
+        <h1>Synergy Solutions</h1>
         <nav>
             <ul>
-                <li><a href="#our-product">Our Product</a></li>
+                <li><a href="#product-section">Our Product</a></li>
                 <li><a href="#special-offers">Special Offers</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
-                <li>Gallery</li>
             </ul>
         </nav>
-
     </header>
-    
-        <section role="region" aria-labelledby="our-product" id="section-1">
-            <h2 id="our-product">Our Product</h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veritatis adipisci error ex dolor.
-                Maxime fuga provident deleniti et dolores?</p>
-
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum facere illo possimus porro
-                quidem asperiores deserunt explicabo alias quia?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, provident! Quasi maiores aliquam
-                excepturi magni nemo corporis cupiditate! Doloremque, enim similique? Deserunt, quasi minima totam illum
-                ea incidunt odio eveniet?</p>
+        <section class="content"  id="product-section">
+            <h2>Our Product</h2>
+            <article> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veritatis adipisci error ex dolor.
+                Maxime fuga provident deleniti et dolores?</article>
+            <figure>
+                <img src="assets/product-img.jpeg" id="product-img" alt="image of an iphone">
+                <figcaption>Image of our product</figcaption>
+            </figure>
         </section>
-        <figure>
-            <img src="assets/product-img.jpeg" id="product-img" alt="image of an iphone">
-            <figcaption>Image of our product</figcaption>
-        </figure>
-        <section role="region" aria-labelledby="special-offers" id="section-2">
+   
+        <section class="content" id="spec-off-section">
             <h2 id="special-offers">Special Offers</h2>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veritatis adipisci error ex dolor.
-                Maxime fuga provident deleniti et dolores?</p>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum facere illo possimus porro
-                quidem asperiores deserunt explicabo alias quia?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, provident! Quasi maiores aliquam
-                excepturi magni nemo corporis cupiditate! Doloremque, enim similique? Deserunt, quasi minima totam illum
-                ea incidunt odio eveniet?</p>
+            <iframe  src="https://www.youtube.com/embed/wAPCSnAhhC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section role="region" aria-labelledby="contact-form">
+        <section class="form" >
             <h2 id="contact-us">Contact Us</h2>
             <div class="container">
                 <form>
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="England">England</option>
-                        <option value="Wales">Wales</option>
-                        <option value="Scotland">Scotland</option>
-                    </select>
                     <label for="lname">Email</label>
                     <input type="email" id="email" name="email" placeholder="Your email address..">
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
                         style="height:200px"></textarea>
-
                     <input type="submit" value="Send">
                 </form>
             </div>
@@ -79,7 +54,7 @@
     </section>
 
     <footer>
-        <div class="social-icons">
+        <section class="social-icons">
             <a href="https://www.facebook.com/">
                 <i class="fab fa-facebook-f"></i>
             </a>
@@ -95,7 +70,7 @@
             <a href="https://www.youtube.com/">
                 <i class="fab fa-youtube"></i>
             </a>
-        </div>
+        </section>
     </footer>
 </body>
 
